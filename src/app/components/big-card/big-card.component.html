@@ -2,7 +2,7 @@
 
   <div class="big-card__photo">
     <img
-    src="https://scontent.fopo4-2.fna.fbcdn.net/v/t39.30808-6/326015500_1413104839431765_5759487119727471773_n.jpg?stp=dst-jpg_s1080x2048&_nc_cat=104&ccb=1-7&_nc_sid=a4a2d7&_nc_eui2=AeGAnO0XHSxkRuA9yLPwCb1H6Z7HqJhcVkTpnseomFxWREJ6c9on6DQOeluP1n7nMiRMuvyv5w44V54ovYLWgY_w&_nc_ohc=Nn9Nkth_SM0AX_waQwS&_nc_ht=scontent.fopo4-2.fna&oh=00_AfAjM6boyLk-H6zV_FQ-uZqHWePgP7A_F2aeh7xxIYQ51Q&oe=64714A2E"
+    src="{{ photoCover }}"
     alt=""
     height="200px"
     srcset=""
@@ -10,18 +10,14 @@
   </div>
 
   <div class="big-card__title">
-    <h1><a href="#">Front-end Developer Angular</a></h1>
+    <h1><a href="#">{{ cardTitle }}</a></h1>
   </div>
+
   <div class="big-card__description">
     <p>
-      <a>
-      <ul>
-        <li>JavaScript</li>
-        <li>Angular</li>
-        <li>TypeScript</li>
-        <li>Node</li>
-      </ul>
-        </a>
+      <a href="#">
+          {{ cardDescription }}
+      </a>
     </p>
   </div>
 </div>
